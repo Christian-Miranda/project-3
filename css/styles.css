@@ -220,17 +220,4 @@ img {
   background-color: #342F3C
 }
 
-@media (min-width: 500px){
-  .pkmap {
-    background-color: red;
-  }
-  #map {
-    height: 50;
-  }
-}
 
-@media (min-width: 900px){
- #map {
-  height: 100%;
- }
-}
