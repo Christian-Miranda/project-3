@@ -223,6 +223,7 @@ img {
 #map{
   height: 80%;
 }
+
 #button-container {
   position: absolute;
   bottom: 10px;
@@ -243,6 +244,17 @@ img {
 
 #recenter-btn:hover {
   opacity: 0.9;
+}
+
+#slider {
+  text-align: center;
+}
+
+#slider img {
+  width: 720px;
+  max-width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 @media (min-width: 600px){

@@ -35,7 +35,7 @@ async function initMap() {
     anchor: marker
   });
 
-  var button = document.getElementById("recenter-btn");
+  const button = document.getElementById("recenter-btn");
 
   if (button) {
     button.onclick = function () {
@@ -46,3 +46,37 @@ async function initMap() {
 }
 
 window.initMap = initMap;
+
+document.addEventListener("DOMContentLoaded", function () {
+  const images = [
+    "images/pksf25.jpg",
+    "images/gw26.jpg",
+    "images/gww26.jpg"
+  ];
+
+  let currentIndex = 0;
+
+  const sliderImage = document.getElementById("sliderImage");
+  const leftBtn = document.getElementById("prevBtn");
+  const rightBtn = document.getElementById("nextBtn");
+
+  function updateImage() {
+    sliderImage.src = images[currentIndex];
+  }
+
+  if (!sliderImage) return;
+
+  if (leftBtn) {
+    leftBtn.onclick = function () {
+      currentIndex = (currentIndex - 1 + images.length) % images.length;
+      updateImage();
+    };
+  }
+
+  if (rightBtn) {
+    rightBtn.onclick = function () {
+      currentIndex = (currentIndex + 1) % images.length;
+      updateImage();
+    };
+  }
+});
