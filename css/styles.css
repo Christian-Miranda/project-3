@@ -220,6 +220,17 @@ img {
   background-color: #342F3C
 }
 
+@media (min-width: 500px){
+  .map {
+    background-color: red;
+  }
+}
+
+@media (min-width: 900px){
+  .map {
+  
+  }
+}
 #map {
   height: 100%;
 }
