@@ -219,3 +219,7 @@ img {
   border: 3px groove #A689C4;
   background-color: #342F3C
 }
+
+#map {
+  height: 100%;
+}
