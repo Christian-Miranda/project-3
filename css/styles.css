@@ -223,6 +223,27 @@ img {
 #map{
   height: 80%;
 }
+#button-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+#recenter-btn {
+  background: #3F3C49;
+  color: #F6FF35;
+  border: 2px solid #EE2AA9;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#recenter-btn:hover {
+  opacity: 0.9;
+}
 
 @media (min-width: 600px){
   .pkmap h1{
