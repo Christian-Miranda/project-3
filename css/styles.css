@@ -221,7 +221,7 @@ img {
 }
 
 #map{
-  height: 85%;
+  height: 80%;
 }
 
 @media (min-width: 600px){
@@ -231,6 +231,7 @@ img {
     text-decoration-color: yellow;
     text-decoration-line: underline;
     padding: 1.25rem;
+    text-align: right;
   }
   .pkmap {
     width: 90%;
@@ -242,6 +243,7 @@ img {
 @media (min-width: 900px){
 .pkmap h1{
     color: red;
+    text-align: left;
     font-size: 2.5rem;
     text-decoration-color: black;
     text-decoration-line: underline;
