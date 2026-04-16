@@ -220,4 +220,7 @@ img {
   background-color: #342F3C
 }
 
-
+#map{
+  height: 100%;
+}
+}
