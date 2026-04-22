@@ -267,7 +267,6 @@ img {
     text-align: right;
   }
   .pkmap {
-    position: relative;
     width: 90%;
     padding: 1.5rem;
     background-color: grey;
@@ -285,7 +284,6 @@ img {
   }
 
   .pkmap {
-    position: relative;
     width: 95%;
     background-color: purple;
   }
