@@ -45,7 +45,8 @@ async function initMap() {
   }
 }
 
-window.initMap = initMap;
+window.addEventListener("load", () => {initMap();
+});
 
 document.addEventListener("DOMContentLoaded", function () {
   const images = [
