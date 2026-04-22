@@ -221,7 +221,8 @@ img {
 }
 
 #map{
-  height: 80%;
+  height: 400px;
+  width: 100%;
 }
 
 #button-container {
