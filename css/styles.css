@@ -221,7 +221,8 @@ img {
 }
 
 #map{
-  height: 80%;
+  height: 500px;
+  width: 100%;
 }
 
 #button-container {
@@ -267,6 +268,7 @@ img {
     text-align: right;
   }
   .pkmap {
+    position: relative;
     width: 90%;
     padding: 1.5rem;
     background-color: grey;
@@ -284,6 +286,7 @@ img {
   }
 
   .pkmap {
+    position: relative;
     width: 95%;
     background-color: purple;
   }
