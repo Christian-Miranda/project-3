@@ -220,6 +220,10 @@ img {
   background-color: #342F3C
 }
 
+html, body {
+  height: 100%;
+}
+
 #map{
   height: 80%;
 }
